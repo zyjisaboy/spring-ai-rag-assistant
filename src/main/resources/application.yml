@@ -1,6 +1,9 @@
 server:
   port: 8080
 
+app:
+  upload-dir: /Users/zhaoyongjie/work/temp/spring-ai-rag-assistant
+
 spring:
   ai:
     openai:
@@ -10,3 +13,9 @@ spring:
         options:
           model: deepseek-v4-pro
           temperature: 0.7
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
